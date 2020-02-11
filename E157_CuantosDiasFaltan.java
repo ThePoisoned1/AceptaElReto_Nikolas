@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author 1b_dam20_22
+ * @author ThePoisoned1
  */
 public class E157_CuantosDiasFaltan {
 
