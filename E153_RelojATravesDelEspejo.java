@@ -63,10 +63,8 @@ public class E153_RelojATravesDelEspejo {
         String[] time = sc.nextLine().split(":");
         int hora = Integer.parseInt(time[0]);
         int minuto = Integer.parseInt(time[1]);
-        hora = getHoraEspejo(hora, minuto);
-        System.out.printf("%02d", hora);
+        System.out.printf("%02d", getHoraEspejo(hora, minuto));
         System.out.print(":");
-
         System.out.printf("%02d", getMinutoEspejo(minuto));
         System.out.println("");
     }
