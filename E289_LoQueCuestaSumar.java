@@ -43,7 +43,7 @@ public class E289_LoQueCuestaSumar {
     }
 
     public static void main(String[] args) {
-        new E289_LoQueCuestaSumarb().run();
+        new E289_LoQueCuestaSumar().run();
     }
 
 }
