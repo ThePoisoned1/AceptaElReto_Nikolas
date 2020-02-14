@@ -1,4 +1,4 @@
-package AceptaElReto;
+package AceptaElReto.AC;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -32,7 +32,7 @@ public class E113_SemaforosSinParar {
         for (int i = 0; i < numSemaforos - 1; i++) {
             tiempo = fin * (avenida.get(i).x / distanciaTotal); //lo que tardas en llegar al semaforo
             cantCiclos = ((int) tiempo) / avenida.get(i).ciclo;//ciclos que hace ese semaforo
-            tiempo -= posCiclo * avenida.get(i).ciclo;//le restas la cantidad de ciclos completos
+            tiempo -= cantCiclos * avenida.get(i).ciclo;//le restas la cantidad de ciclos completos
             if (tiempo < (avenida.get(i).tiempoRojo - 0.01) && tiempo > 0.01) {//si cuando pasa esta en rojo
                 return false;
             }
