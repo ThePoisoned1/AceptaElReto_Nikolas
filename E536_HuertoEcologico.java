@@ -57,19 +57,15 @@ public class E536_HuertoEcologico {
             return false;
         }
         int numHuertos = Integer.parseInt(sc.nextLine());
-        String entrada[], nombreHuerto;
+        String nombreHuerto;
         int tamanyo, cantAbono, cantAgua, distancia;
         Huerto mejorHuerto = new Huerto(0, 0, 0, 0, ""), huerto;
         for (int i = 0; i < numHuertos; i++) {
-            entrada = sc.nextLine().split(" ");
-            tamanyo = Integer.parseInt(entrada[0]);
-            cantAbono = Integer.parseInt(entrada[1]);
-            cantAgua = Integer.parseInt(entrada[2]);
-            distancia = Integer.parseInt(entrada[3]);
-            nombreHuerto = entrada[4];
-            for (int j = 5; j < entrada.length; j++) {
-                nombreHuerto += " " + entrada[j];
-            }
+            tamanyo = sc.nextInt();
+            cantAbono = sc.nextInt();
+            cantAgua = sc.nextInt();
+            distancia = sc.nextInt();
+            nombreHuerto = sc.nextLine().trim();
             if (i == 0) {
                 mejorHuerto = new Huerto(tamanyo, cantAbono, cantAgua, distancia, nombreHuerto);
             } else {
