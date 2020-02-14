@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package AceptaElReto;
 
 import java.util.Scanner;
@@ -22,160 +17,6 @@ public class E102_EncriptacionDeMensajes {
         int resultado = 0;
 
         switch (l) {
-            case 'p':
-                if (!"pFIN".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'q':
-                if (!"qGJO".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'b' || l == 'f' || l == 'j' || l == 'p' || l == 'v') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'r':
-                if (!"rHKP".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'c' || l == 'g' || l == 'k' || l == 'q' || l == 'w') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 's':
-                if (!"sILQ".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'd' || l == 'h' || l == 'l' || l == 'r' || l == 'x') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 't':
-                if (!"tJMR".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'e' || l == 'i' || l == 'm' || l == 's' || l == 'y') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'u':
-                if (!"uKNS".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'f' || l == 'j' || l == 'n' || l == 't' || l == 'z') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'v':
-                if (!"vLOT".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'g' || l == 'k' || l == 'o' || l == 'u' || l == 'a') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'w':
-                if (!"wMPU".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'h' || l == 'l' || l == 'p' || l == 'v' || l == 'b') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'x':
-                if (!"xNQV".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'i' || l == 'm' || l == 'q' || l == 'w' || l == 'c') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'y':
-                if (!"yORW".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'j' || l == 'n' || l == 'r' || l == 'x' || l == 'd') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
-            case 'z':
-                if (!"zPSX".equals(texto)) {
-                    texto = texto.toLowerCase();
-                    for (int i = 1; i < texto.length(); i++) {
-                        l = texto.charAt(i);
-                        if (l == 'k' || l == 'o' || l == 's' || l == 'y' || l == 'e') {
-                            resultado++;
-                        }
-                    }
-                    System.out.println(resultado);
-                } else {
-                    return false;
-                }
-                break;
             case 'a':
                 if (!"aQTY".equals(texto)) {
                     texto = texto.toLowerCase();
@@ -378,6 +219,160 @@ public class E102_EncriptacionDeMensajes {
                     for (int i = 1; i < texto.length(); i++) {
                         l = texto.charAt(i);
                         if (l == 'z' || l == 'd' || l == 'h' || l == 'n' || l == 't') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+                            case 'p':
+                if (!"pFIN".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'q':
+                if (!"qGJO".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'b' || l == 'f' || l == 'j' || l == 'p' || l == 'v') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'r':
+                if (!"rHKP".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'c' || l == 'g' || l == 'k' || l == 'q' || l == 'w') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 's':
+                if (!"sILQ".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'd' || l == 'h' || l == 'l' || l == 'r' || l == 'x') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 't':
+                if (!"tJMR".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'e' || l == 'i' || l == 'm' || l == 's' || l == 'y') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'u':
+                if (!"uKNS".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'f' || l == 'j' || l == 'n' || l == 't' || l == 'z') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'v':
+                if (!"vLOT".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'g' || l == 'k' || l == 'o' || l == 'u' || l == 'a') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'w':
+                if (!"wMPU".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'h' || l == 'l' || l == 'p' || l == 'v' || l == 'b') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'x':
+                if (!"xNQV".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'i' || l == 'm' || l == 'q' || l == 'w' || l == 'c') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'y':
+                if (!"yORW".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'j' || l == 'n' || l == 'r' || l == 'x' || l == 'd') {
+                            resultado++;
+                        }
+                    }
+                    System.out.println(resultado);
+                } else {
+                    return false;
+                }
+                break;
+            case 'z':
+                if (!"zPSX".equals(texto)) {
+                    texto = texto.toLowerCase();
+                    for (int i = 1; i < texto.length(); i++) {
+                        l = texto.charAt(i);
+                        if (l == 'k' || l == 'o' || l == 's' || l == 'y' || l == 'e') {
                             resultado++;
                         }
                     }
