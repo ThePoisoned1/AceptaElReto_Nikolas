@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author ThePoisoned1
  */
-public class E254_LosDalton {
+public class E245_LosDalton {
 
     Scanner sc;
 
@@ -41,7 +41,7 @@ public class E254_LosDalton {
     }
 
     public static void main(String[] args) {
-        new E254_LosDalton().run();
+        new E245_LosDalton().run();
     }
 
 }
