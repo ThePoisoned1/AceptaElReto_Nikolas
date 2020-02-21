@@ -14,6 +14,7 @@ public class E327_ElAcertijoDelMercader {
     long[][] potenciasPrimos = new long[30][30];
     long maximo;
     final long INF = 1000000000;
+    int contador;
 
     public void multiplicador(int numDivisores) {
         long numGenerado = 1;
@@ -51,8 +52,8 @@ public class E327_ElAcertijoDelMercader {
     }
 
     public boolean esPrimo(long n) {
-        for (long i = 2; i <= Math.sqrt(n); ++i) {
-            if (n % i == 0) {
+        for (int i = 0; i < contador; ++i) {
+            if (n % potenciasPrimos[i][0] == 0) {
                 return false;
             }
         }
@@ -60,7 +61,7 @@ public class E327_ElAcertijoDelMercader {
     }
 
     public void calcularPrimos(long limite) {
-        int contador = 0;
+        contador = 0;
         for (long i = 2; i < INF; i++) {
             if (esPrimo(i)) {
                 potenciasPrimos[contador][0] = i;
