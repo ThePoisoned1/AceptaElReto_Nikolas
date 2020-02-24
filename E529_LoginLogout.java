@@ -17,7 +17,7 @@ public class E529_LoginLogout {
             switch (log.charAt(i)) {
                 case 'O':
                     if (usuariosActuales == 0) {
-                        usuariosMaximos++;
+                        usuariosMaximos++; //significa que desde el prncipio habia un user mas de los que estabamos contando
                     } else {
                         usuariosActuales--;
                     }
