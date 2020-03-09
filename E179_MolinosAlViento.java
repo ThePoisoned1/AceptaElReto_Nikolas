@@ -16,7 +16,6 @@ public class E179_MolinosAlViento {
             return false;
         }
         int[] energiaMolinos = new int[cantMolinos + 1];
-        energiaMolinos[0] = 0;
         for (int i = 1; i <= cantMolinos; i++) {
             energiaMolinos[i] = energiaMolinos[i - 1] + sc.nextInt();
         }
