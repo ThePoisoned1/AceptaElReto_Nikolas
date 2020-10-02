@@ -13,7 +13,7 @@ public class E488_MeDuermoEnLosJuegos {
     void caso() {
         int nPuntos = sc.nextInt();
         int energia = sc.nextInt();
-        long pGuardado, pGuardadoAnterior = sc.nextLong(), inicioSesion = 0;
+        long pGuardado, pGuardadoAnterior = sc.nextLong(), inicioSesion = 0; //funciona con int tambien, pero no me fiaba
         int sesiones = 1;
         for (int i = 1; i < nPuntos; i++) {
             pGuardado = sc.nextLong();
