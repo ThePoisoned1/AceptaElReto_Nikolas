@@ -2,6 +2,7 @@ import java.util.Scanner;
 /**
  *
  * @author ThePoisoned1
+ * A veces da TLE, dependiendo del trafico a la hora de subirlo
  */
 public class E576_LeyendoElDiccionario {
     Scanner sc;
