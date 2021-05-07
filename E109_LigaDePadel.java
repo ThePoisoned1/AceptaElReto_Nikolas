@@ -1,5 +1,3 @@
-package AceptaElReto;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -11,7 +9,7 @@ public class E109_LigaDePadel {
 
        Scanner sc;
 
-    public int partidosRestantes(HashMap equipos, int partidos) {
+    public int partidosRestantes(HashMap<String, Integer> equipos, int partidos) {
         return equipos.size() * (equipos.size() - 1) - partidos;
     }
 

@@ -1,5 +1,3 @@
-package AceptaElReto.SinEnviar;
-
 import java.util.Scanner;
 
 /**

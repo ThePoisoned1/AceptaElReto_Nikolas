@@ -1,5 +1,3 @@
-package AceptaElReto.AC;
-
 import java.util.Scanner;
 
 /**
