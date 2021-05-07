@@ -5,11 +5,11 @@ import java.util.Scanner;
  *
  * @author ThePoisoned1
  */
-public class E581_EscapandoDeSusaina {
+public class E581_EscapandoDeSusanita {
     Scanner sc;
 
     public static void main(String[] args) {
-        new E581_EscapandoDeSusaina().run();
+        new E581_EscapandoDeSusanita().run();
     }
 
     private void run() {
