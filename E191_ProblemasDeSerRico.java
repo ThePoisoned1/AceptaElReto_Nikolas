@@ -1,5 +1,3 @@
-package AceptaElReto;
-
 import java.util.Scanner;
 
 /**
@@ -12,7 +10,7 @@ public class E191_ProblemasDeSerRico {
 
     public void caso() {
         int numeroCompartimentos = sc.nextInt();
-        int nasGrande = sc.nextInt();
+        int masGrande = sc.nextInt();
         int disminucion = sc.nextInt();
         int total = 0;
         for (int j = 0; j < numeroCompartimentos; j++) {

@@ -7,11 +7,11 @@ import java.util.TreeMap;
  *
  * @author ThePoisoned1
  */
-public class E579FelipeYSusTareas {
+public class E579_FelipeYSusTareas {
     Scanner sc;
 
     public static void main(String[] args) {
-        new E579FelipeYSusTareas().run();
+        new E579_FelipeYSusTareas().run();
     }
 
     private void run() {

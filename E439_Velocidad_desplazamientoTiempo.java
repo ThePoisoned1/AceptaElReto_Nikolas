@@ -1,5 +1,3 @@
-package aer;
-
 import java.util.Scanner;
 
 /**

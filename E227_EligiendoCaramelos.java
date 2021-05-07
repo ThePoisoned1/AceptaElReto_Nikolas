@@ -1,5 +1,3 @@
-package AceptaElReto;
-
 import java.math.BigInteger;
 import java.util.Scanner;
 
