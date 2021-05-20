@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/**
+ *
+ * @author ThePoisoned1
+ */
 public class E604_HonorDistibucion {
     Scanner sc;
 
